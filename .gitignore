@@ -1,0 +1,19 @@
+# 가상환경 · 빌드 산출물
+.venv/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+__pycache__/
+*.pyc
+
+# 외부 저장소 (clone 으로 복원)
+dex-retargeting-repo/
+
+# 수집 데이터 · 대용량 산출물 (별도 백업)
+data/
+models/*.task
+*.webm
+
+# 편집 백업
+*.bak
+*.bak_*
