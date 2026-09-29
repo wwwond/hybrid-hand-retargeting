@@ -102,7 +102,7 @@ source .venv/bin/activate
 pip install mediapipe dex_retargeting pybullet torch opencv-python trimesh "scipy<1.13"
 
 # 로봇 손 모델 (PyBullet은 .glb를 못 읽어 .obj로 변환)
-git clone https://github.com/dexsuite/dex-retargeting dex-retargeting-repo
+git clone https://github.com/wwwond/hybrid-hand-retargeting hand-retarget
 cd dex-retargeting-repo && git submodule update --init && cd ..
 python scripts/convert_glb_to_obj.py
 
