@@ -97,7 +97,7 @@ $$q' = \frac{q - q^{open}}{q^{max} - q^{open}} \cdot q^{max}$$
 **환경**: Ubuntu 24.04, ROS2 Jazzy, Python 3.12
 
 ```bash
-git clone <이 저장소> hand-retarget && cd hand-retarget
+git clone https://github.com/wwwond/hybrid-hand-retargeting.git hand-retarget && cd hand-retarget
 python3 -m venv .venv --system-site-packages     # ROS2 파이썬 패키지 접근에 필요
 source .venv/bin/activate
 pip install mediapipe dex_retargeting pybullet torch opencv-python trimesh "scipy<1.13"
